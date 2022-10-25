@@ -1,0 +1,14 @@
+{
+    "cmd": ["g++.exe","-std=c++17", "-o", "$file_base_name", "$file"],
+    "selector" : "source.c, source.cpp",
+    "path": "C:\\MinGW\\bin\\",
+
+    "variants": [
+
+        {   
+            "cmd": ["start", "cmd", "/k", "$file_base_name"],
+            "shell": true,
+            "name": "Run"
+        }
+    ]
+}
